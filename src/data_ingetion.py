@@ -82,7 +82,8 @@ def main():
         logger.error('Failed to complete the data ingetion process: %s', e)
         print(f'Error: {e}')
 
-    if __name__ == "___main__":
-        main()
+ 
+if __name__ == '__main__':
+    main()
 
 
