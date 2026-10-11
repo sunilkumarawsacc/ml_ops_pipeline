@@ -3,6 +3,7 @@ import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import spmatrix
 import logging
+import yaml
 
 
 #Insure log directory exists
