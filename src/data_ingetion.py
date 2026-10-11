@@ -73,7 +73,7 @@ def save_data(train_data: pd.DataFrame, test_data: pd.DataFrame, data_path: str)
 def main():
     try:
         test_size = 0.2
-        data_path='ttps://raw.githubusercontent.com/sunilkumarawsacc/ml_ops_pipeline/refs/heads/main/data_source/spam.csv'
+        data_path='https://raw.githubusercontent.com/sunilkumarawsacc/ml_ops_pipeline/refs/heads/main/data_source/spam.csv'
         df = load_data(data_url=data_path)
         final_df = preprocess_data(df)
         train_data, test_data = train_test_split(final_df, test_size=test_size, random_state=2)
